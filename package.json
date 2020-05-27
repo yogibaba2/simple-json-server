@@ -1,0 +1,15 @@
+{
+  "name": "dummy-server",
+  "version": "1.0.0",
+  "description": "dummy server",
+  "main": "index.js",
+  "scripts": {
+    "start:json": "echo \"Starting server with db.json\" && json-server --watch db.json",
+    "start:index": "echo \"Starting server with index.js so data will not be saved\" && json-server index.js"
+  },
+  "author": "yogendra porwal",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.16.1"
+  }
+}
